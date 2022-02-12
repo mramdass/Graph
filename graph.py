@@ -14,6 +14,7 @@ import dash_html_components as html
 NODES = ['Ava', 'Bob', 'Chi', 'Dev', 'Eve']
 EDGES = [('Ava','Chi'), ('Bob','Dev'), ('Bob','Eve'), ('Chi', 'Eve')]
 
+# https://networkx.org/documentation/stable/tutorial.html
 G = nx.Graph()
 G.add_node('Ava')
 G.add_nodes_from(['Bob','Chi','Dev','Eve'])
